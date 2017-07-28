@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ViewDataTest_V1.Entities
+namespace ViewDataTest_V1.DataBase.Interfaces
 {
-    public class Person
+    public interface IRepository
     {
     }
 }

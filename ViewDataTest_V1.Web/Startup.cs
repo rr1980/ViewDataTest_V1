@@ -7,6 +7,10 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using ViewDataTest_V1.DataBase.Interfaces;
+using ViewDataTest_V1.DataBase;
+using ViewDataTest_V1.Services;
+using ViewDataTest_V1.Services.Interfaces;
 
 namespace ViewDataTest_V1.Web
 {
@@ -27,6 +31,10 @@ namespace ViewDataTest_V1.Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSingleton<IRepository, Repository>();
+            services.AddSingleton<IPersonService, PersonService>();
+            
+
             // Add framework services.
             services.AddMvc();
         }

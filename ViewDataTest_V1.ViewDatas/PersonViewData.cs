@@ -6,5 +6,6 @@ namespace ViewDataTest_V1.ViewDatas
 {
     public class PersonViewData
     {
+
     }
 }

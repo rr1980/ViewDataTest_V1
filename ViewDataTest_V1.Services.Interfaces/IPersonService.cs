@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ViewDataTest_V1.Entities
+namespace ViewDataTest_V1.Services.Interfaces
 {
-    public class Person
+    public interface IPersonService
     {
     }
 }
