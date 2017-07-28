@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ViewDataTest_V1.ViewDatas.Interfaces
 {
-    public interface IProperty<TProperty>
+    public interface IProperty
     {
     }
 }

@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using ViewDataTest_V1.DataBase.Interfaces;
+﻿using ViewDataTest_V1.DataBase.Interfaces;
 using ViewDataTest_V1.Services.Interfaces;
+using ViewDataTest_V1.ViewDatas;
 using ViewDataTest_V1.ViewDatas.Interfaces;
 
 namespace ViewDataTest_V1.Services
@@ -18,11 +16,13 @@ namespace ViewDataTest_V1.Services
             _viewDataBuilder = viewDataBuilder;
         }
 
-        public IPersonViewData Init()
+        public IViewData Init()
         {
             var result = _repository.GetPerson();
 
-            return _viewDataBuilder.Build<IPersonViewData>(result);
+            var vd = _viewDataBuilder.Build(new PersonViewData(), result);
+
+            return vd;
         }
     }
 }

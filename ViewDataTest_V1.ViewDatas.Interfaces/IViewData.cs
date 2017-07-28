@@ -4,8 +4,8 @@ using System.Text;
 
 namespace ViewDataTest_V1.ViewDatas.Interfaces
 {
-    public interface IPersonViewData
+    public interface IViewData
     {
-        IProperty<string> Name { get; set; }
+        IList<IProperty> Properties { get; set; }
     }
 }

@@ -3,25 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewDataTest_V1.Web", "ViewDataTest_V1.Web\ViewDataTest_V1.Web.csproj", "{83B4AE3F-5620-49AC-8E43-147B503C31A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViewDataTest_V1.Web", "ViewDataTest_V1.Web\ViewDataTest_V1.Web.csproj", "{83B4AE3F-5620-49AC-8E43-147B503C31A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewDataTest_V1.ViewDatas", "ViewDataTest_V1.ViewDatas\ViewDataTest_V1.ViewDatas.csproj", "{FAB38137-3E57-49C9-AA54-1080538A1DBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViewDataTest_V1.ViewDatas", "ViewDataTest_V1.ViewDatas\ViewDataTest_V1.ViewDatas.csproj", "{FAB38137-3E57-49C9-AA54-1080538A1DBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewDataTest_V1.Entities", "ViewDataTest_V1.Entities\ViewDataTest_V1.Entities.csproj", "{53A0C5C0-916C-45CC-8470-DE4BDB126868}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViewDataTest_V1.Entities", "ViewDataTest_V1.Entities\ViewDataTest_V1.Entities.csproj", "{53A0C5C0-916C-45CC-8470-DE4BDB126868}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewDataTest_V1.Services", "ViewDataTest_V1.Services\ViewDataTest_V1.Services.csproj", "{7875A3C7-BA7E-4301-A685-F33B3788826A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViewDataTest_V1.Services", "ViewDataTest_V1.Services\ViewDataTest_V1.Services.csproj", "{7875A3C7-BA7E-4301-A685-F33B3788826A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewDataTest_V1.DataBase", "ViewDataTest_V1.DataBase\ViewDataTest_V1.DataBase.csproj", "{75D6A470-73D2-4E45-A849-5D7F71717490}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViewDataTest_V1.DataBase", "ViewDataTest_V1.DataBase\ViewDataTest_V1.DataBase.csproj", "{75D6A470-73D2-4E45-A849-5D7F71717490}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewDataTest_V1.Interfaces", "ViewDataTest_V1.Interfaces\ViewDataTest_V1.Interfaces.csproj", "{5732FD7D-D4B8-45BC-A8F7-C9D9B6F9E889}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViewDataTest_V1.Interfaces", "ViewDataTest_V1.Interfaces\ViewDataTest_V1.Interfaces.csproj", "{5732FD7D-D4B8-45BC-A8F7-C9D9B6F9E889}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewDataTest_V1.Common", "ViewDataTest_V1.Common\ViewDataTest_V1.Common.csproj", "{23B78B74-6422-45D3-BDFD-2BC62BC66F74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViewDataTest_V1.Common", "ViewDataTest_V1.Common\ViewDataTest_V1.Common.csproj", "{23B78B74-6422-45D3-BDFD-2BC62BC66F74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewDataTest_V1.Entities.Interfaces", "ViewDataTest_V1.Entities.Interfaces\ViewDataTest_V1.Entities.Interfaces.csproj", "{26ADDC24-72BB-4FB3-9BFC-A725E2ABDF65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViewDataTest_V1.Entities.Interfaces", "ViewDataTest_V1.Entities.Interfaces\ViewDataTest_V1.Entities.Interfaces.csproj", "{26ADDC24-72BB-4FB3-9BFC-A725E2ABDF65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewDataTest_V1.ViewDatas.Core", "ViewDataTest_V1.ViewDatas.Core\ViewDataTest_V1.ViewDatas.Core.csproj", "{AE8DEFEF-1CBB-4955-B46D-71E8E5AC71B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViewDataTest_V1.ViewDatas.Core", "ViewDataTest_V1.ViewDatas.Core\ViewDataTest_V1.ViewDatas.Core.csproj", "{AE8DEFEF-1CBB-4955-B46D-71E8E5AC71B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewDataTest_V1.ViewDatas.Interfaces", "ViewDataTest_V1.ViewDatas.Interfaces\ViewDataTest_V1.ViewDatas.Interfaces.csproj", "{D9A5E1D9-D8D1-4680-B89B-E37359E29260}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViewDataTest_V1.ViewDatas.Interfaces", "ViewDataTest_V1.ViewDatas.Interfaces\ViewDataTest_V1.ViewDatas.Interfaces.csproj", "{D9A5E1D9-D8D1-4680-B89B-E37359E29260}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ViewDatas", "ViewDatas", "{81EDF6F0-DD7D-412E-B4A2-0F682E56A5A3}"
 EndProject
@@ -29,11 +29,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Base", "Base", "{098A15FB-A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{388D573F-88AA-46D7-9584-DDCD4F78B07C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewDataTest_V1.DataBase.Interfaces", "ViewDataTest_V1.DataBase.Interfaces\ViewDataTest_V1.DataBase.Interfaces.csproj", "{F0A87A56-62AD-48F7-9756-6C8A66502017}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViewDataTest_V1.DataBase.Interfaces", "ViewDataTest_V1.DataBase.Interfaces\ViewDataTest_V1.DataBase.Interfaces.csproj", "{F0A87A56-62AD-48F7-9756-6C8A66502017}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{D188D5C3-BF0A-447F-A4AF-D7510292BEF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewDataTest_V1.Services.Interfaces", "ViewDataTest_V1.Services.Interfaces\ViewDataTest_V1.Services.Interfaces.csproj", "{09CE4D18-4E29-4C81-9650-62ACD93CEF4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViewDataTest_V1.Services.Interfaces", "ViewDataTest_V1.Services.Interfaces\ViewDataTest_V1.Services.Interfaces.csproj", "{09CE4D18-4E29-4C81-9650-62ACD93CEF4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewDataTest_V1.Entities..Common", "ViewDataTest_V1.Entities..Common\ViewDataTest_V1.Entities..Common.csproj", "{0D9751C4-F147-49F1-A87E-E541E4D4659F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,6 +91,10 @@ Global
 		{09CE4D18-4E29-4C81-9650-62ACD93CEF4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09CE4D18-4E29-4C81-9650-62ACD93CEF4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09CE4D18-4E29-4C81-9650-62ACD93CEF4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D9751C4-F147-49F1-A87E-E541E4D4659F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D9751C4-F147-49F1-A87E-E541E4D4659F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D9751C4-F147-49F1-A87E-E541E4D4659F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D9751C4-F147-49F1-A87E-E541E4D4659F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -105,5 +111,6 @@ Global
 		{D9A5E1D9-D8D1-4680-B89B-E37359E29260} = {81EDF6F0-DD7D-412E-B4A2-0F682E56A5A3}
 		{F0A87A56-62AD-48F7-9756-6C8A66502017} = {388D573F-88AA-46D7-9584-DDCD4F78B07C}
 		{09CE4D18-4E29-4C81-9650-62ACD93CEF4E} = {D188D5C3-BF0A-447F-A4AF-D7510292BEF8}
+		{0D9751C4-F147-49F1-A87E-E541E4D4659F} = {388D573F-88AA-46D7-9584-DDCD4F78B07C}
 	EndGlobalSection
 EndGlobal

@@ -5,8 +5,8 @@ using ViewDataTest_V1.ViewDatas.Interfaces;
 
 namespace ViewDataTest_V1.ViewDatas
 {
-    public class PersonViewData : IPersonViewData
+    public class PersonViewData : IViewData
     {
-        public IProperty<string> Name { get; set; }
+        public IList<IProperty> Properties { get; set; } = new List<IProperty>();
     }
 }

@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ViewDataTest_V1.ViewDatas.Interfaces\ViewDataTest_V1.ViewDatas.Interfaces.csproj" />
+    <ProjectReference Include="..\ViewDataTest_V1.Common\ViewDataTest_V1.Common.csproj" />
   </ItemGroup>
 
 </Project>

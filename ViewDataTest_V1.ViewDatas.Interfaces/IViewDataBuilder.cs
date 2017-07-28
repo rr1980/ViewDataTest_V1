@@ -6,6 +6,6 @@ namespace ViewDataTest_V1.ViewDatas.Interfaces
 {
     public interface IViewDataBuilder
     {
-        T Build<T>(object result);
+        IViewData Build<E>(IViewData viewData, E result);
     }
 }
