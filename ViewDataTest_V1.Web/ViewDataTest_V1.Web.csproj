@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp1.1</TargetFramework>
@@ -17,6 +17,15 @@
   </ItemGroup>
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ViewDataTest_V1.Common\ViewDataTest_V1.Common.csproj" />
+    <ProjectReference Include="..\ViewDataTest_V1.DataBase\ViewDataTest_V1.DataBase.csproj" />
+    <ProjectReference Include="..\ViewDataTest_V1.Entities.Interfaces\ViewDataTest_V1.Entities.Interfaces.csproj" />
+    <ProjectReference Include="..\ViewDataTest_V1.Entities\ViewDataTest_V1.Entities.csproj" />
+    <ProjectReference Include="..\ViewDataTest_V1.Interfaces\ViewDataTest_V1.Interfaces.csproj" />
+    <ProjectReference Include="..\ViewDataTest_V1.Services\ViewDataTest_V1.Services.csproj" />
+    <ProjectReference Include="..\ViewDataTest_V1.ViewDatas\ViewDataTest_V1.ViewDatas.csproj" />
   </ItemGroup>
 
 </Project>
