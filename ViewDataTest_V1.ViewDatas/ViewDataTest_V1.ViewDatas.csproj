@@ -1,7 +1,12 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp1.1</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ViewDataTest_V1.ViewDatas.Core\ViewDataTest_V1.ViewDatas.Core.csproj" />
+    <ProjectReference Include="..\ViewDataTest_V1.ViewDatas.Interfaces\ViewDataTest_V1.ViewDatas.Interfaces.csproj" />
+  </ItemGroup>
 
 </Project>

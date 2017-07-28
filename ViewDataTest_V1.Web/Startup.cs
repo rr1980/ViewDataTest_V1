@@ -11,6 +11,8 @@ using ViewDataTest_V1.DataBase.Interfaces;
 using ViewDataTest_V1.DataBase;
 using ViewDataTest_V1.Services;
 using ViewDataTest_V1.Services.Interfaces;
+using ViewDataTest_V1.ViewDatas.Core;
+using ViewDataTest_V1.ViewDatas.Interfaces;
 
 namespace ViewDataTest_V1.Web
 {
@@ -32,9 +34,10 @@ namespace ViewDataTest_V1.Web
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddSingleton<IRepository, Repository>();
+            services.AddSingleton<IViewDataBuilder, ViewDataBuilder>();
             services.AddSingleton<IPersonService, PersonService>();
-            
 
+            
             // Add framework services.
             services.AddMvc();
         }

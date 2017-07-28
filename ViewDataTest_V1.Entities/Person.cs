@@ -1,10 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using ViewDataTest_V1.Entities.Interfaces;
 
 namespace ViewDataTest_V1.Entities
 {
-    public class Person
+    public class Person : IPerson
     {
+        public long Id { get; set; }
+        public string Name { get; set; }
+
+        public Person(string name, long id)
+        {
+            Id = id;
+            Name = name;
+        }
     }
 }

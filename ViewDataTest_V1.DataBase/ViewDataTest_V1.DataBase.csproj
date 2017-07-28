@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ViewDataTest_V1.DataBase.Interfaces\ViewDataTest_V1.DataBase.Interfaces.csproj" />
+    <ProjectReference Include="..\ViewDataTest_V1.Entities\ViewDataTest_V1.Entities.csproj" />
   </ItemGroup>
 
 </Project>
