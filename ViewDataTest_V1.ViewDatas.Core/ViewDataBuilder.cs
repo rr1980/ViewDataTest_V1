@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
+using ViewDataTest_V1.Common;
 using ViewDataTest_V1.Entities.Common;
 using ViewDataTest_V1.ViewDatas.Interfaces;
 
@@ -11,14 +12,34 @@ namespace ViewDataTest_V1.ViewDatas.Core
     {
         public IViewData Build<E>(IViewData viewData, E result)
         {
-            var propertiesAtributes = CustomAttributeExtractorExtensions.GetPropertyAttributesFromType<PropertieAttribute>(typeof(E));
+            var propertiesAttributes = CustomAttributeExtractorExtensions.GetPropertyAttributesFromType<PropertieAttribute>(typeof(E));
 
-            foreach (var prop in propertiesAtributes)
+            foreach (var attr in propertiesAttributes)
             {
-                viewData.Properties.Add(new Property(prop.Attribute.Type.ToString(), prop.Attribute.Name));
+                var newProp = _buildProp(attr, result);
+                viewData.Properties.Add(newProp);
             }
 
             return viewData;
+        }
+
+        private Property _buildProp<E>(CustomAttributeExtractorExtensions.PropertyAttributeContainer<PropertieAttribute> attr, E result)
+        {
+            Property newProp = new Property();
+            newProp.Name = attr.Attribute.Name;
+            newProp.Type = attr.Attribute.Type.ToString();
+
+            switch (attr.Attribute.Type)
+            {
+                case PropertyEnum.String:
+                    newProp.Value_String = (string)attr.Property.GetValue(result, null);
+                    break;
+
+                default:
+                    break;
+            }
+
+            return newProp;
         }
     }
 

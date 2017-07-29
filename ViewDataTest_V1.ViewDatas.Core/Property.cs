@@ -6,11 +6,17 @@ namespace ViewDataTest_V1.ViewDatas.Core
     {
         public string Type { get; set; }
         public string Name { get; set; }
+        public string Value_String { get; set; }
 
-        public Property(string type, string name)
+        public Property()
         {
-            Type = type;
-            Name = name;
+
         }
+
+        //public Property(string type, string name)
+        //{
+        //    Type = type;
+        //    Name = name;
+        //}
     }
 }
